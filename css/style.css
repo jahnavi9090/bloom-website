@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2c3e50;
+    overflow-x: hidden;
+    padding-top: 76px; /* Account for fixed navbar */
+}
+
+.hero {
+    height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ... Rest of your existing CSS ... */
+
+/* Additional Bootstrap Customization */
+.navbar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #ff8e8e, #ff6b6b);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Feature Cards Styling */
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #ff6b6b;
+    margin-bottom: 1.5rem;
+}
+
+/* Contact Page Styling */
+.contact-form-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a {
+    color: #ff6b6b;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.contact-info i {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+}
+
+/* Form styling */
+.form-control {
+    border: 2px solid #eee;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.25);
+}
+/* Footer Styling */
+.footer {
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+}
+
+.footer h6 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 0.75rem;
+}
+
+.footer ul li a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ff6b6b;
+}
+
+.footer .social-links a {
+    color: #6c757d;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    color: #ff6b6b;
+}
+
+.footer hr {
+    border-color: #dee2e6;
+}
+
+.footer .list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.footer .list-inline-item a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer .list-inline-item a:hover {
+    color: #ff6b6b;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
